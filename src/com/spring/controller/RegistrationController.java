@@ -18,7 +18,7 @@ public class RegistrationController {
         User userForm = new User(null, null, null, null, null);    
         model.put("userForm", userForm);
          
-        List<String> professionList = new ArrayList<>();
+        List<String> professionList = new ArrayList<>(); //array list to store Profession
         professionList.add("Developer");
         professionList.add("Designer");
         professionList.add("IT Manager");
