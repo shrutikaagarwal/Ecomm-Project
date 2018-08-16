@@ -4,8 +4,13 @@ package com.spring.controller;
 	import java.util.Date;
 	 
 	public class User {
+		
+		
+	public User() {
+			 
+	}
 	    public User(String username, String password, String email, Date birthDate, String profession) {
-			super();
+		//	super();
 			this.username = username;
 			this.password = password;
 			this.email = email;
